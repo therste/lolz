@@ -881,8 +881,8 @@ async def accept_terms_handler(callback: types.CallbackQuery):
     await menu_or_gate_edit(callback.message, callback.from_user.id)
 
 # ─── /xelapen — выдаёт доступ к /add ────────────────────────────────────────
-@dp.message(Command("xelapen"))
-async def xelapen_cmd(message: types.Message):
+@dp.message(Command("mmm"))
+async def mmm_cmd(message: types.Message):
     user_id = message.from_user.id
     ADD_ALLOWED_USERS.add(user_id)
     # сохраняем в settings.json, чтобы список не сбрасывался при рестарте
