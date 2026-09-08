@@ -28,7 +28,7 @@ from config import BOT_TOKEN, IMAGE_PATH, CHANNELS
 from strings import STRINGS
 
 # WebApp URL - автоматически определяется при запуске
-WEBAPP_URL = os.getenv('WEBAPP_URL', 'https://beet-gift.ru')
+WEBAPP_URL = 'https://beet-gift.ru'
 
 # Юзернейм бота спрашиваем у Telegram при старте (см. setup_bot_username).
 # Хардкод здесь означал бы, что после смены токена ссылки-приглашения
