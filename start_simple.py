@@ -322,7 +322,7 @@ def append_custom_review(username, gift, rating, text, user_id):
 
 def start_flask(webapp_url):
     """Запускает Flask сервер (легковесный режим)"""
-    os.environ['WEBAPP_URL'] = webapp_url
+    #os.environ['WEBAPP_URL'] = webapp_url
 
     try:
         from flask import Flask, send_from_directory, jsonify, request
